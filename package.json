@@ -1,0 +1,14 @@
+{
+  "name": "voltminer-bot",
+  "version": "1.0.0",
+  "description": "VoltMiner Discord Bot",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "discord.js": "^14.15.2",
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "node keepalive.js & node index.js"
+  }
+}
